@@ -22,3 +22,22 @@ git branch
 
 // branch 이동하기
 git checkout signin
+
+// origin(github)의 git 내용 다운받기 (master만 다운로드됨)
+git clone https://주소
+
+// origin(github)의 branch 확인
+git branch -r
+
+// origin의 branch 가져오기(다운로드 받아짐)
+git checkout -t origin/signin
+
+// branch 지우기 (우선 master로 돌아감)
+git branch -d signin
+
+// branch 생성과 이동 한꺼번에 하기
+git checkout -b signin
+
+
+
+
