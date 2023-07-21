@@ -1,4 +1,5 @@
 git init
+git remote add origin https://www.github.com/gitseodong/git-practice.git
 git add .
 git status
 git commit - m '메시지'
@@ -41,5 +42,6 @@ git checkout -b signin
 // 버전이 맞지 않아 push가 막혔을 때
 git pull origin master 후 코드 조정 후 git push origin master
 
-
+// 예전 버전이 있는 상태에서 origin을 가져올 때
+git pull origin master
 
