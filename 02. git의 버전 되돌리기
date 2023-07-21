@@ -50,3 +50,11 @@ git branch -m master main
 
 // 모든 프로젝트의 기본 branch를 main으로 바꾸는 방법
 git config --global init.defaultBranch main
+
+// .gitignore 파일 없이 모든 파일을 올렸을 경우 .gitignore 설정방법
+1) .gitignore 파일 생성하여 제외할 파일, 폴더 입력 후 저장
+2) git rm -r --cached .    (rm: remove, -r: 재귀적(recursive))
+3) git add .
+4) git commit -m '메시지'
+5) git push origin main
+
