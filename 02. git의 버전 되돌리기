@@ -38,6 +38,8 @@ git branch -d signin
 // branch 생성과 이동 한꺼번에 하기
 git checkout -b signin
 
+// 버전이 맞지 않아 push가 막혔을 때
+git pull origin master 후 코드 조정 후 git push origin master
 
 
 
