@@ -32,7 +32,7 @@ git branch -r
 // origin의 branch 가져오기(다운로드 받아짐)
 git checkout -t origin/signin
 
-// branch 지우기 (우선 master로 돌아감)
+// branch 지우기 (우선 master로 돌아간 후에 명령어 친다., 컴퓨터에서만 지워짐, github에는 남아있음)
 git branch -d signin
 
 // branch 생성과 이동 한꺼번에 하기
