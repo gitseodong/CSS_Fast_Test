@@ -13,3 +13,6 @@ git reset --hard HEAD~2
 
 // 버전 되돌린거 취소하기 (한 단계는 취소할 수 있음)
 git reset --hard ORIG_HEAD
+
+// branch 생성하기 (signin은 branch명)
+git branch signin
