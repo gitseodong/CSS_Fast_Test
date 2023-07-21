@@ -8,6 +8,8 @@ git push origin master
 
 // 버전 1칸 되돌리기
 git reset --hard HEAD~1
+// 버전 2칸 되돌리기
+git reset --hard HEAD~2
 
 // 버전 되돌린거 취소하기 (한 단계는 취소할 수 있음)
 git reset --hard ORIG_HEAD
