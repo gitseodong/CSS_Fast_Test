@@ -16,3 +16,6 @@ git reset --hard ORIG_HEAD
 
 // branch 생성하기 (signin은 branch명)
 git branch signin
+
+// branch 목록확인
+git branch
