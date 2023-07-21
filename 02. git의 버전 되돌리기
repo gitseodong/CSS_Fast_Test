@@ -19,3 +19,6 @@ git branch signin
 
 // branch 목록확인
 git branch
+
+// branch 이동하기
+git checkout signin
